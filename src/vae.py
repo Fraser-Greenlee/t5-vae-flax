@@ -1,9 +1,9 @@
 import jax.numpy as jnp
 import flax.linen as nn
 
-from model.encoders import VAE_ENCODER_MODELS
-from model.decoders import VAE_DECODER_MODELS
-from model.config import T5VaeConfig
+from t5_vae_flax.src.encoders import VAE_ENCODER_MODELS
+from t5_vae_flax.src.decoders import VAE_DECODER_MODELS
+from t5_vae_flax.src.config import T5VaeConfig
 
 
 class VAE(nn.Module):

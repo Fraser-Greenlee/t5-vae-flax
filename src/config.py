@@ -3,9 +3,9 @@ from transformers.utils import logging
 from transformers.configuration_utils import PretrainedConfig
 from transformers import AutoConfig, T5Config
 
-from model.encoders import VAE_ENCODER_MODELS
-from model.decoders import VAE_DECODER_MODELS
-from model.utils import assertEqual, assertIn
+from t5_vae_flax.src.encoders import VAE_ENCODER_MODELS
+from t5_vae_flax.src.decoders import VAE_DECODER_MODELS
+from t5_vae_flax.src.utils import assertEqual, assertIn
 
 logger = logging.get_logger(__name__)
 

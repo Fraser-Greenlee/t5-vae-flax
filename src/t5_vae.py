@@ -11,9 +11,9 @@ from transformers.file_utils import add_start_docstrings
 from transformers.modeling_flax_utils import FlaxPreTrainedModel
 from transformers.models.t5.modeling_flax_t5 import FlaxT5ForConditionalGenerationModule
 
-from model.vae import VAE
-from model.outputs import TransformerVaeOutput
-from model.config import T5VaeConfig
+from t5_vae_flax.src.vae import VAE
+from t5_vae_flax.src.outputs import TransformerVaeOutput
+from t5_vae_flax.src.config import T5VaeConfig
 
 
 @add_start_docstrings("""T5 Model with a `language modeling` head on top converted into a VAE.""")
